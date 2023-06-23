@@ -24,12 +24,12 @@ Then you need to get all your report links inside the urls.json
 To do so, first you need to [publish to web](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-publish-to-web)
 (You don't need a premium or paid account to do this)
 
-⋅⋅⋅In case you have a lot of pages in your report, you will need to copy the "ReportSection" parameter from the URL.
-⋅⋅⋅To do so, click on the name of your report in your workspace. 
-⋅⋅⋅Them, in your browser, you will notice that in the current URL you're in, the very last words are "ReportSectin?BUNCHofCharaters?experience=power-bi"
-⋅⋅⋅You will need to go into each one of your pages and copy the value of the "ReportSection" parameter, then you can add in the end of your base URL that you got from publishing to web
-⋅⋅⋅"&pageName=ReportSectionNAOFNAOSFNBAOFUB" (the characters here are just for example purposes)
-⋅⋅⋅If you don't have multiple pages you don't need to do any of this
+    In case you have a lot of pages in your report, you will need to copy the "ReportSection" parameter from the URL.
+    o do so, click on the name of your report in your workspace. 
+    Them, in your browser, you will notice that in the current URL you're in, the very last words are "ReportSectin?BUNCHofCharaters?experience=power-bi"
+    You will need to go into each one of your pages and copy the value of the "ReportSection" parameter, then you can add in the end of your base URL that you got from publishing to web
+    "&pageName=ReportSectionNAOFNAOSFNBAOFUB" (the characters here are just for example purposes)
+    If you don't have multiple pages you don't need to do any of this
 
 With your URLs on hand, you can them paste them inside the urls.json file, just replace the one mockup line in there with yours.
 Note that you do need to put all the urls inside quotation marks (" "), and if you have more than one, the lines need to end with a comma (,) except for the last line.
